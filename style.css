@@ -1,9 +1,31 @@
-.board{
-    position: fixed;
-    height: 50%;
-    width: 50%;
-
-}
-::before{
-    background: repeating-linear-gradient(90deg, #000 0, #000 40px, #fff 40deg, #fff 80px);
-}
+ html{
+        background: skyblue;
+    }
+    body{
+        width: 800px;
+        height: 800px;
+        background: white;
+        margin: 30px auto;
+    }
+    .row{
+        width: 100%;
+        float: left;
+        color: orangered;
+    }
+    .row-btn{
+        color: purple;
+    }
+    .box{
+        width: 100px;
+        height: 100px;
+        float: left;
+        font-size: 70px;
+        text-align: center;
+       
+    }
+    .black{
+        background: black;
+    }
+    .box:hover{
+        background: gold;
+    }
